@@ -5,6 +5,7 @@ public class StringChanger {
         for(int i = 0; i < str.length(); i++){
             if(vowels.contains(String.valueOf(str.charAt(i)))){
                 str = str.replace(String.valueOf(str.charAt(i)), "");
+                i--;
             }
         }
         return str;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Matrix {
+class Matrix {
     private int x;
     private int y;
 
